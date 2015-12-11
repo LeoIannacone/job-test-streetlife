@@ -12,8 +12,10 @@ cats all around the tube map and check how long it takes them to find each other
 
 We provide you with the map in the following format:
 
-tfl_stations.csv: station_id, station_name
-tfl_connections.csv: station_id_1, station_id_2
+tfl_stations.csv: station_id, station_name.
+tfl_connections.csv: station_id_1, station_id_2.
+tfl_stations.json: same as tfl_stations.csv but in JSON format.
+tfl_connections.csv: same as tfl_connections.csv but in JSON format.
 
 - You should create N owners and N cats, where N is specified as a command-line.
 - The initial position of the owner and the cat must be random and different one to the other.
