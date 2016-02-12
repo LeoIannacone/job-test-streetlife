@@ -2,9 +2,9 @@ import time
 import random
 from threading import Thread
 
-from exceptions import InvariantException
-from exceptions import NoAvailabeConnectionException
-from exceptions import CannotMoveFromClosedStationException
+from ..exceptions import InvariantException
+from ..exceptions import NoAvailabeConnectionException
+from ..exceptions import CannotMoveFromClosedStationException
 
 MAX_MOVES = 100000
 SLEEP_TIME = 0.01  # s

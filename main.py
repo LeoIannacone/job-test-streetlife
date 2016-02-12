@@ -2,8 +2,8 @@ import random
 from argparse import ArgumentParser
 
 from entities.factories import StationFactory
-from entities.cat import Cat
-from entities.owner import Owner
+from entities.players.cat import Cat
+from entities.players.owner import Owner
 
 from entities.stats import OwnersStats, ErrorsStats, StationsStats
 
